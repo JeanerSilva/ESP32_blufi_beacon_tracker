@@ -1,1 +1,1 @@
-1 blufi_demo v3.3-beta1-134-g1023ff73f
+0ad16e0 blufi_demo v3.3-beta1-134-g1023ff73f

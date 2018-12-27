@@ -1,0 +1,22 @@
+
+https://www.youtube.com/watch?v=H07DjpTtk_k
+
+
+
+“C/C++ Build” Use default build command 
+
+python ${IDF_PATH}/tools/windows/eclipse_make.py -j4
+
+"C / C ++ Build" "Environment" 
+BATCH_BUILD 1 
+IDF_PATH C:/msys32/home/usuario/esp/esp-idf
+
+PATH C:\msys32\usr\bin;C:\msys32\mingw32\bin;C:\msys32\opt\xtensa-esp32-elf\bin 
+
+"C / C ++ General" "Preprocessor Include Paths, Macros, etc." 
+
+CDT GCC Built-in Compiler Settings Cygwin 
+xtensa-esp32-elf-gcc ${FLAGS} -E -P -v -dD "${INPUTS}" 
+
+CDT GCC Build Output Parser 
+xtensa-esp32-elf-((g?cc)|([gc]\+\+)|(clang))
